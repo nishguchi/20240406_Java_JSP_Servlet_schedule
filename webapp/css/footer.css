@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+/*フッター*/
+footer {
+	background-color: darkgray;
+	width: 100%;
+	height: 50px;
+}
+
+
+.mark {
+	color: #fff;
+	text-align: center;	
+}
+
+.mark p {
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+
