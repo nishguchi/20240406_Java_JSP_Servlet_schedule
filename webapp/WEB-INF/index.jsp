@@ -20,6 +20,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>ログイン</title>
+		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 
@@ -35,20 +36,20 @@
 			</div>
 		</header>
 	
-	
-		<div class="login-form">
-			<form action="/WebP2/Login" method="post" onsubmit="return Form()">
-				<p>ログインID</p>
-				<input type="text" name="ID" value="<%= id %>">
-				<p>パスワード</p>
-				<input type="password" id = "PASS" name="PASS" value ="<%= pass %>">
-				<input type="submit">
-			</form>
-			<%= error %>
-		
-		</div>		
-		<a href="/WebP2/UserRegist">ユーザー登録</a>
-
+		<main>
+			<div class="login-form">
+				<form action="/WebP2/Login" method="post" onsubmit="return Form()">
+					<p>ログインID</p>
+					<input type="text" name="ID" value="<%= id %>">
+					<p>パスワード</p>
+					<input type="password" id = "PASS" name="PASS" value ="<%= pass %>">
+					<input type="submit">
+				</form>
+				<%= error %>
+			
+			</div>		
+			<a href="/WebP2/UserRegist">ユーザー登録</a>
+		</main>
 
 	<!-- 
 	<div id="message"></div>

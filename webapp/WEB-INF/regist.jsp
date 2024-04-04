@@ -35,12 +35,12 @@
 		
 		<p>作業名</p>
 		<input type="text" value="" name="work_name">
+		<p>作業メモ</p>
+		<textarea name="work_memo" rows="10" cols="80"></textarea>
 		<p>予定開始時刻</p>
 		<input type="text" value="<%= fmt.format(start)%>" name="start">
 		<p>予定終了時刻</p>
 		<input type="text" value="<%= fmt.format(end)%>" name="end">
-		<p>作業メモ</p>
-		<textarea name="work_memo" rows="10" cols="30"></textarea>
 		<input type ="hidden" name="ID" value="<%= name.getId()%>"></input>
 		<input type="submit" value="登録">		
 	</form>

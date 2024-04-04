@@ -29,7 +29,7 @@
 		<p>作業名</p>
 		<input type="text" value="<%= change.getWork_name() %>" name="work_name">
 		<p>作業内容</p>
-		<input type="text" value="<%= change.getWork_memo() %>" name="work_memo">
+		<textarea rows="10" cols="80" name="work_memo"><%= change.getWork_memo() %></textarea>
 		<p>予定開始日時</p>
 		<input type="text" value="<%= change.getStart() %>" name="start">
 		<p>予定終了日時</p>

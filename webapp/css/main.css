@@ -1,9 +1,19 @@
 @charset "UTF-8";
 
 /*メイン*/
-
-a {
-	color: black;
+main a {
+	color: rgb(0, 128, 255);
 	text-decoration-line: none;
-	font-size: 30px;
+}
+
+
+
+table {
+	border: 1px;
+	background-color: darkgrey;
+}
+
+
+.work-id {
+	width: 50px;
 }

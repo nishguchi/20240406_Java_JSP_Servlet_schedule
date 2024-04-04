@@ -37,7 +37,7 @@ public class Login extends HttpServlet {
 			RequestDispatcher disp = request.getRequestDispatcher("/WEB-INF/menu.jsp");
 			disp.forward(request, response);
 
-			
+			//
 		}
 	}
 	
